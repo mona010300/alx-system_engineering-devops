@@ -1,3 +1,4 @@
+#!/bin/bash
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -22,5 +23,4 @@ systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/n
 systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
-mysql:x:106:107:MySQL Server,,,:/nonexistent:/bin/false
-total 24
+mysql:x:106:107:MySQL Server,,,:/nonexistent:/bin/false\
